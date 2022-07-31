@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/DP.svg';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '50px' }} />
+        <img src={Logo} alt='Logo Image' style={{ width: '140px', marginTop: '50px' }} />
       </div>
 
       {/* menu */}
@@ -86,23 +86,34 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+            <a className='flex justify-between items-center w-full text-gray-300' href='https://www.linkedin.com/in/devarat/' target='_blank'>
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+            <a className='flex justify-between items-center w-full text-gray-300' href='https://github.com/devaratpatel' target='_blank'>
               Github <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+            <Link
+              onClick={handleClick}
+              to='contact'
+              className='flex justify-between items-center w-full text-gray-300'
+              smooth={true}
+              duration={500}
+              href='devaratpatel1@gmail.com'
+            >
               Email <HiOutlineMail size={30} />
-            </a>
+            </Link>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href='/'>
-              Resume <BsFillPersonLinesFill size={30} />
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://drive.google.com/file/d/1z0__wh519DwlhQHBewbcSN0WQUgSXZfJ/view?usp=sharing'
+              target='_blank'
+            >
+              Download Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>

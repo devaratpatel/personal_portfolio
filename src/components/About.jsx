@@ -17,12 +17,12 @@ const About = () => {
           <div>
             <p>
               I'm a very ambitious full-stack developer looking for a role in established IT company with the opportunity to work with the latest
-              technologies on challenging and diverse projects.
+              technologies on challenging & diverse projects.
             </p>
             <br></br>
-            <p>I'm quietly confident, naturally curious, and perpetually working on improving myself everyday.</p>
+            <p>I'm quietly confident, naturally curious, & perpetually working on improving myself everyday.</p>
             <br></br>
-            <p>If I need to define myself in one sentence that would be a family person, a sports fan, travel enthusiast, and tech-obsessed!!</p>
+            <p>If I need to define myself in one sentence that would be a family person, a sports fan, travel enthusiast, & tech-obsessed!!</p>
           </div>
         </div>
       </div>
