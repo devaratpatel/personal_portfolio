@@ -22,7 +22,7 @@ const About = () => {
             <br></br>
             <p>I'm quietly confident, naturally curious, & perpetually working on improving myself everyday.</p>
             <br></br>
-            <p>If I need to define myself in one sentence that would be a family person, a sports fan, travel enthusiast, & tech-obsessed!!</p>
+            <p>If I need to define myself in one sentence that would be a family person, a sports fan, travel enthusiast, & tech-obsessed!</p>
           </div>
         </div>
       </div>
