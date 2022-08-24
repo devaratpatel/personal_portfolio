@@ -10,7 +10,7 @@ import Azure from '../assets/azure.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import MySql from '../assets/mysql.svg';
-import Python from '../assets/python.svg';
+import csharp from '../assets/csharp.png';
 import Github from '../assets/github.png';
 
 const Skills = () => {
@@ -29,8 +29,8 @@ const Skills = () => {
             <p className='my-4'>Javascript</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Python} alt='HTML icon' />
-            <p className='my-4'>Python</p>
+            <img className='w-20 mx-auto' src={csharp} alt='HTML icon' />
+            <p className='my-4'>C#</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={ReactImg} alt='HTML icon' />
