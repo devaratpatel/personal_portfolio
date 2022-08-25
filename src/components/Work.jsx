@@ -1,9 +1,10 @@
 import React from 'react';
-import americanSpirit from '../assets/usa.jpg';
-import crytoNova from '../assets/crypto_nova.png';
+import americanSpirit from '../assets/americanSpirit.png';
+import crytoNova from '../assets/cryptoNova.png';
 import weatherForecast from '../assets/weatherApp.png';
-import foodPiles from '../assets/food_piles.png';
-import comingSoon from '../assets/comingSoon.png';
+import foodPiles from '../assets/foodPiles.png';
+import smartShopper from '../assets/smartshopper.png';
+import stayTuned from '../assets/stayTuned.png';
 
 const Work = () => {
   return (
@@ -53,23 +54,6 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${weatherForecast})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>Weather Forecast App</span>
-              <div className='pt-8 text-center'>
-                <a href='https://weather-go.herokuapp.com/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href='github.com/devaratpatel/weatherGo'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
             style={{
               backgroundImage: `url(${foodPiles})`,
             }}
@@ -88,26 +72,43 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${comingSoon})` }}
+            style={{ backgroundImage: `url(${smartShopper})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>Coming Soon</span>
+              <span className='text-2xl font-bold text-white tracking-wider'>Smart Shopping List</span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://tcl-37-smart-shopping-list.web.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/the-collab-lab/tcl-37-smart-shopping-list'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${weatherForecast})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>Weather Forecast App</span>
+              <div className='pt-8 text-center'>
+                <a href='https://weather-go.herokuapp.com/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                </a>
+                <a href='github.com/devaratpatel/weatherGo'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${comingSoon})` }}
+            style={{ backgroundImage: `url(${stayTuned})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
